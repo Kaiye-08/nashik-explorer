@@ -4,7 +4,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "./MapAbout.css";
 
-const API_BASE = (import.meta.env.VITE_API_URL || "http://localhost:5000").replace(/\/$/, "");
+const API_BASE = (`${import.meta.env.VITE_API_URL}/api/places`, "");
 const categories = ["All", "Religious", "Historical", "Nature", "Wine & Leisure"];
 const markerIcon = new L.Icon({
   iconUrl: new URL("leaflet/dist/images/marker-icon.png", import.meta.url).href,
