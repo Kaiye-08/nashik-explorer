@@ -1,5 +1,6 @@
+
 import { useEffect, useState } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import PlaceCard from "../components/PlaceCard";
 
 function Home() {
@@ -8,23 +9,23 @@ function Home() {
     const [error, setError] = useState("");
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/places")
-        .then((response) => {
-            if (!response.ok) {
-                throw new Error("Failed to fetch places");
-            }
+        fetch(`${import.meta.env.VITE_API_URL}/api/places`)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Failed to fetch places");
+                }
 
-            return response.json();
-        })
-        .then((data) => {
-            setPlaces(data);
-            setLoading(false);
-        })
-        .catch((error) => {
-            console.error(error);
-            setError("Could not load places.");
-            setLoading(false);
-        });
+                return response.json();
+            })
+            .then((data) => {
+                setPlaces(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error(error);
+                setError("Could not load places.");
+                setLoading(false);
+            });
     }, []);
 
     if (loading) {
@@ -40,17 +41,20 @@ function Home() {
             <section className="hero">
                 <h1>Explore Nashik</h1>
                 <p>
-                    Discover temples, caves, waterfalls, vineyards and unforgettable places around Nashik!
+                    Discover temples, caves, waterfalls, vineyards
+                    and unforgettable places around Nashik!
                 </p>
-                <Link to="/places" className="hero-button">Explore Places</Link>
+                <Link to="/places" className="hero-button">
+                    Explore Places
+                </Link>
             </section>
 
-            <section className="featured-palces">
+            <section className="featured-places">
                 <h2>Featured Places</h2>
 
                 <div className="places-grid">
                     {places.map((place) => (
-                        <PlaceCard key = {place._id} place={place}/>
+                        <PlaceCard key={place._id} place={place} />
                     ))}
                 </div>
             </section>
