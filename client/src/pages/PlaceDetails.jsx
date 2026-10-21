@@ -42,7 +42,7 @@ function PlaceDetails() {
         setLoading(true);
         setError("");
 
-        fetch(`${import.meta.env.VITE_API_URL}/api/places`, {
+        fetch( `${import.meta.env.VITE_API_URL}/api/places/${encodeURIComponent(slug)}`, {
             signal: controller.signal
         })
             .then((response) => {
