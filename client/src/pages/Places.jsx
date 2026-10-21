@@ -16,7 +16,7 @@ function Places() {
     });
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/places").then((response) => {
+        fetch(`${import.meta.env.VITE_API_URL}/api/places`).then((response) => {
             if (!response.ok) {
                 throw new Error("Failed to fetch places");
             }
