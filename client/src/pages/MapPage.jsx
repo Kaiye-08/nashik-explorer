@@ -35,7 +35,7 @@ export default function MapPage() {
     const controller = new AbortController();
     async function loadPlaces() {
       try {
-        const response = await fetch(`${API_BASE}/api/places`, { signal: controller.signal });
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/places`), { signal: controller.signal });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         const list = Array.isArray(data) ? data : data.places;
