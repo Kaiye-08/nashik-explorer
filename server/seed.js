@@ -9,7 +9,7 @@ const places = [
         name: "Panchavati", slug: "panchavati", category: "Religious",
         description: "A historic and sacred neighbourhood on the Godavari's banks, home to many of Nashik's best-known temples and pilgrimage sites.",
         shortDescription: "Historic pilgrimage neighbourhood by the Godavari",
-        address: "Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.0066, longitude: 73.7905 },
+        address: "Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.00669, longitude: 73.79357 },
         distancesFromOrigins: { cbs: { distanceKm: 3, durationMinutes: 15 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Cooler weather is generally more comfortable for walking between temples. Festival days can be crowded.", entryFee: "Generally free; individual attractions may differ", images: ["/images/panchavati.jpg"], googlePlaceId: "", featured: true
     },
@@ -17,7 +17,7 @@ const places = [
         name: "Ramkund", slug: "ramkund", category: "Religious",
         description: "A sacred bathing tank on the Godavari River, closely associated with Nashik's religious traditions and pilgrimage rituals.",
         shortDescription: "Sacred riverside bathing tank in Panchavati",
-        address: "Ramkund, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.0056, longitude: 73.7875 },
+        address: "Ramkund, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.0072639, longitude: 73.7924901 },
         distancesFromOrigins: { cbs: { distanceKm: 2, durationMinutes: 10 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler months are generally comfortable for exploring the riverfront and nearby temples.", entryFee: "Generally free", images: ["/images/ramkund.jpg"], googlePlaceId: "", featured: true
     },
@@ -25,7 +25,7 @@ const places = [
         name: "Kalaram Temple", slug: "kalaram-temple", category: "Religious",
         description: "A prominent temple in Panchavati dedicated to Lord Rama, noted for its dark-stone architecture and important place in Nashik's religious history.",
         shortDescription: "Historic Lord Rama temple in Panchavati",
-        address: "Kalaram Temple, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.00695, longitude: 73.79522 },
+        address: "Kalaram Temple, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.006910, longitude: 73.795606 },
         distancesFromOrigins: { cbs: { distanceKm: 3, durationMinutes: 15 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Pleasant weather helps with exploring the temple and nearby heritage sites. Expect larger crowds during festivals.", entryFee: "Generally free; verify locally", images: ["/images/kalaram-temple.jpg"], googlePlaceId: "", featured: true
     },
@@ -41,7 +41,7 @@ const places = [
         name: "Kushavart Tirtha", slug: "kushavart-tirtha", category: "Religious",
         description: "A historic sacred water tank in Trimbak, about 300–400 metres from Trimbakeshwar Temple and associated with the Godavari's sacred traditions.",
         shortDescription: "Sacred historic tank in Trimbak",
-        address: "Kushavart Tirtha, Trimbak, Nashik, Maharashtra, India", location: { latitude: 19.9310, longitude: 73.5290 },
+        address: "Kushavart Tirtha, Trimbak, Nashik, Maharashtra, India", location: { latitude: 19.932735, longitude: 73.527729 },
         distancesFromOrigins: { cbs: { distanceKm: 30, durationMinutes: 50 }, airport: { distanceKm: 55, durationMinutes: 80 }, railwayStation: { distanceKm: 40, durationMinutes: 60 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler season is more comfortable for visiting Trimbak and its temple precincts.", entryFee: "Generally free; verify locally", images: ["/images/kushavart-tirtha.jpg"], googlePlaceId: "", featured: false
     },
@@ -49,7 +49,7 @@ const places = [
         name: "Muktidham Temple", slug: "muktidham-temple", category: "Religious",
         description: "A white-marble temple complex near Nashik Road Railway Station, known for its replicas of important Hindu shrines and pilgrimage significance.",
         shortDescription: "White-marble temple complex near Nashik Road",
-        address: "Muktidham Temple, Nashik Road, Nashik, Maharashtra, India", location: { latitude: 19.9635, longitude: 73.8344 },
+        address: "Muktidham Temple, Nashik Road, Nashik, Maharashtra, India", location: { latitude: 19.951802, longitude: 73.836952 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 21, durationMinutes: 40 }, railwayStation: { distanceKm: 1.5, durationMinutes: 10 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler months are generally comfortable for visiting the temple complex.", entryFee: "Generally free; verify locally", images: ["/images/muktidham-temple.jpg"], googlePlaceId: "", featured: false
     },
@@ -65,7 +65,7 @@ const places = [
         name: "Navshya Ganpati Temple", slug: "navshya-ganpati-temple", category: "Religious",
         description: "A well-known Ganesh temple in Anandvalli, traditionally associated with the Peshwa-era history of the area.",
         shortDescription: "Beloved Ganesh temple in Anandvalli",
-        address: "Navshya Ganpati Temple, Anandvalli, Nashik, Maharashtra, India", location: { latitude: 20.0250, longitude: 73.7330 },
+        address: "Navshya Ganpati Temple, Anandvalli, Nashik, Maharashtra, India", location: { latitude: 19.9971584, longitude: 73.7526385 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 15, durationMinutes: 30 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Comfortable weather is ideal for a temple visit; Ganesh festival periods may be busier.", entryFee: "Generally free; verify locally", images: ["/images/navshya-ganpati-temple.jpg"], googlePlaceId: "", featured: false
     },
@@ -73,7 +73,7 @@ const places = [
         name: "Pandav Leni Caves", slug: "pandav-leni-caves", category: "Historical",
         description: "Ancient Buddhist rock-cut caves on Trirashmi Hill, known for their inscriptions, carvings and archaeological significance.",
         shortDescription: "Ancient Buddhist rock-cut caves near Nashik",
-        address: "Pandav Leni, Nashik, Maharashtra, India", location: { latitude: 20.0119, longitude: 73.7741 },
+        address: "Pandav Leni, Nashik, Maharashtra, India", location: { latitude: 19.9408, longitude: 73.7489 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "November to February", bestTimeToVisitReason: "Cooler, generally drier weather makes the uphill walk and cave exploration more comfortable.", entryFee: "Verify current ASI entry fee and timings", images: ["/images/pandav-leni-caves.jpg"], googlePlaceId: "", featured: true
     },
@@ -81,7 +81,7 @@ const places = [
         name: "Dadasaheb Phalke Smarak", slug: "dadasaheb-phalke-smarak", category: "Historical",
         description: "A memorial and park named for Dadasaheb Phalke, the pioneering Indian filmmaker, near the Pandav Leni area.",
         shortDescription: "Memorial celebrating the pioneer of Indian cinema",
-        address: "Dadasaheb Phalke Smarak, Nashik, Maharashtra, India", location: { latitude: 20.0152, longitude: 73.7710 },
+        address: "Dadasaheb Phalke Smarak, Nashik, Maharashtra, India", location: { latitude: 19.9437668, longitude: 73.7502292 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "November to February", bestTimeToVisitReason: "Cooler weather is more comfortable for walking around the grounds. Confirm current opening status before visiting.", entryFee: "Verify current entry fee and opening status", images: ["/images/dadasaheb-phalke-smarak.jpg"], googlePlaceId: "", featured: false
     },
@@ -89,7 +89,7 @@ const places = [
         name: "Coin Museum", slug: "coin-museum", category: "Historical",
         description: "A specialist museum on the Nashik–Trimbakeshwar Road documenting the history of Indian currency and numismatics.",
         shortDescription: "Museum dedicated to Indian currency history",
-        address: "Coin Museum, INHCRF Campus, Trimbakeshwar Road, Nashik, Maharashtra, India", location: { latitude: 19.9454, longitude: 73.6785 },
+        address: "Coin Museum, INHCRF Campus, Trimbakeshwar Road, Nashik, Maharashtra, India", location: { latitude: 19.957703, longitude: 73.610941 },
         distancesFromOrigins: { cbs: { distanceKm: 20, durationMinutes: 35 }, airport: { distanceKm: 34, durationMinutes: 50 }, railwayStation: { distanceKm: 29, durationMinutes: 45 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "An indoor museum visit works year-round, but cooler weather makes combining it with nearby outdoor stops easier.", entryFee: "Verify current entry fee and opening days", images: ["/images/coin-museum.jpg"], googlePlaceId: "", featured: false
     },
@@ -97,15 +97,15 @@ const places = [
         name: "Gargoti Museum", slug: "gargoti-museum", category: "Historical",
         description: "A mineral and crystal museum in Sinnar featuring specimens, mineral formations and geological displays.",
         shortDescription: "Minerals, crystals and geological exhibits in Sinnar",
-        address: "Gargoti Museum, Malegaon MIDC, Sinnar, Nashik district, Maharashtra, India", location: { latitude: 19.8505, longitude: 73.9970 },
+        address: "Gargoti Museum, Malegaon MIDC, Sinnar, Nashik district, Maharashtra, India", location: { latitude: 19.871822, longitude: 73.972304 },
         distancesFromOrigins: { cbs: { distanceKm: 27, durationMinutes: 25 }, airport: { distanceKm: 45, durationMinutes: 65 }, railwayStation: { distanceKm: 31, durationMinutes: 50 } },
         bestTimeToVisit: "Year-round", bestTimeToVisitReason: "Most of the experience is indoors; check current visitor hours and booking requirements.", entryFee: "Paid admission; verify current rates", images: ["/images/gargoti-museum.jpg"], googlePlaceId: "", featured: false
     },
-    {
+        {
         name: "Sarkar Wada", slug: "sarkar-wada", category: "Historical",
         description: "A historic wada in Nashik associated with the city's Maratha-era architectural and civic heritage.",
         shortDescription: "Historic wada in old Nashik",
-        address: "Sarkar Wada, old city, Nashik, Maharashtra, India", location: { latitude: 20.0038, longitude: 73.7890 },
+        address: "Sarkar Wada, old city, Nashik, Maharashtra, India", location: { latitude: 20.006039, longitude: 73.7901 },
         distancesFromOrigins: { cbs: { distanceKm: 2, durationMinutes: 10 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Cooler weather is better for exploring old-city streets on foot. Confirm public access before visiting.", entryFee: "Verify access and any fee locally", images: ["/images/sarkar-wada.jpg"], googlePlaceId: "", featured: false
     },
@@ -129,7 +129,7 @@ const places = [
         name: "Dugarwadi Waterfall", slug: "dugarwadi-waterfall", category: "Nature",
         description: "A forest-fringed waterfall near Trimbakeshwar, known for its lush monsoon landscape and short approach from the road.",
         shortDescription: "Forest waterfall near Trimbakeshwar",
-        address: "Dugarwadi Waterfall, near Trimbakeshwar, Nashik district, Maharashtra, India", location: { latitude: 19.8975, longitude: 73.4820 },
+        address: "Dugarwadi Waterfall, near Trimbakeshwar, Nashik district, Maharashtra, India", location: { latitude: 19.9406, longitude: 73.4684 },
         distancesFromOrigins: { cbs: { distanceKm: 35, durationMinutes: 55 }, airport: { distanceKm: 55, durationMinutes: 85 }, railwayStation: { distanceKm: 45, durationMinutes: 70 } },
         bestTimeToVisit: "July to October", bestTimeToVisitReason: "The waterfall is most impressive during and after monsoon rainfall. Access can be slippery or unsafe in heavy rain.", entryFee: "Verify local parking/access fees", images: ["/images/dugarwadi-waterfall.jpg"], googlePlaceId: "", featured: false
     },
@@ -137,7 +137,7 @@ const places = [
         name: "Mahiravani Waterfall", slug: "mahiravani-waterfall", category: "Nature",
         description: "A seasonal waterfall and green escape in the Mahiravani area west of Nashik, especially visited during the monsoon.",
         shortDescription: "Seasonal waterfall in the Mahiravani area",
-        address: "Mahiravani Waterfall, Mahiravani, Nashik district, Maharashtra, India", location: { latitude: 20.0150, longitude: 73.6500 },
+        address: "Mahiravani Waterfall, Mahiravani, Nashik district, Maharashtra, India", location: { latitude: 19.9637, longitude: 73.6620 },
         distancesFromOrigins: { cbs: { distanceKm: 13, durationMinutes: 20 }, airport: { distanceKm: 30, durationMinutes: 50 }, railwayStation: { distanceKm: 20, durationMinutes: 35 } },
         bestTimeToVisit: "July to September", bestTimeToVisitReason: "Monsoon rains bring greener scenery and seasonal flow. Verify access locally and avoid entering floodwater.", entryFee: "Verify locally", images: ["/images/mahiravani-waterfall.jpg"], googlePlaceId: "", featured: false
     },
@@ -149,12 +149,11 @@ const places = [
         distancesFromOrigins: { cbs: { distanceKm: 40, durationMinutes: 60 }, airport: { distanceKm: 60, durationMinutes: 90 }, railwayStation: { distanceKm: 50, durationMinutes: 75 } },
         bestTimeToVisit: "July to October", bestTimeToVisitReason: "Seasonal flow is strongest around the monsoon. Use caution on wet trails and check local conditions.", entryFee: "Verify locally", images: ["/images/pahine-waterfall.jpg"], googlePlaceId: "", featured: false
     },
-
-        {
+    {
         name: "Sula Vineyards", slug: "sula-vineyards", category: "Wine & Leisure",
         description: "A well-known winery in the Nashik wine region offering vineyard scenery and visitor experiences. Activities and booking requirements vary.",
         shortDescription: "Vineyard destination near Gangapur Dam",
-        address: "Sula Vineyards, Gangapur-Savargaon Road, Nashik, Maharashtra, India", location: { latitude: 20.0066, longitude: 73.68778 },
+        address: "Sula Vineyards, Gangapur-Savargaon Road, Nashik, Maharashtra, India", location: { latitude: 20.0064403, longitude: 73.6876504 },
         distancesFromOrigins: { cbs: { distanceKm: 12, durationMinutes: 25 }, airport: { distanceKm: 32.4, durationMinutes: 31 }, railwayStation: { distanceKm: 15, durationMinutes: 30 } },
         bestTimeToVisit: "November to February", bestTimeToVisitReason: "Cooler weather is generally pleasant for the vineyard landscape. Check the venue's current visitor schedule and booking options.", entryFee: "Depends on the experience; verify with the venue", images: ["/images/sula-vineyards.jpg"], googlePlaceId: "", featured: true
     },
@@ -170,7 +169,7 @@ const places = [
         name: "Anjaneri Hills", slug: "anjaneri-hills", category: "Nature",
         description: "A prominent hill and trekking destination between Nashik and Trimbakeshwar, associated with Hanuman and containing historic Jain caves.",
         shortDescription: "Scenic trekking hill between Nashik and Trimbak",
-        address: "Anjaneri Hills, Trimbak Road, Nashik district, Maharashtra, India", location: { latitude: 19.9360, longitude: 73.5610 },
+        address: "Anjaneri Hills, Trimbak Road, Nashik district, Maharashtra, India", location: { latitude: 19.9375, longitude: 73.581861 },
         distancesFromOrigins: { cbs: { distanceKm: 20, durationMinutes: 35 }, airport: { distanceKm: 40, durationMinutes: 60 }, railwayStation: { distanceKm: 30, durationMinutes: 45 } },
         bestTimeToVisit: "October to February; monsoon for experienced trekkers", bestTimeToVisitReason: "Post-monsoon and winter weather is generally more comfortable. Monsoon trails can be slippery and require extra caution.", entryFee: "Verify local entry/parking rules", images: ["/images/anjaneri-hills.jpg"], googlePlaceId: "", featured: true
     },
@@ -178,7 +177,7 @@ const places = [
         name: "Harihar Fort", slug: "harihar-fort", category: "Historical",
         description: "A hill fort famous for its steep rock-cut stairway and views across the Nashik district. The final ascent is exposed and demanding.",
         shortDescription: "Dramatic fort with steep rock-cut steps",
-        address: "Harihar Fort, Harshewadi/Nirgudpada area, Nashik district, Maharashtra, India", location: { latitude: 19.9020, longitude: 73.5300 },
+        address: "Harihar Fort, Harshewadi/Nirgudpada area, Nashik district, Maharashtra, India", location: { latitude: 19.90469, longitude: 73.47196 },
         distancesFromOrigins: { cbs: { distanceKm: 40, durationMinutes: 60 }, airport: { distanceKm: 60, durationMinutes: 90 }, railwayStation: { distanceKm: 50, durationMinutes: 75 } },
         bestTimeToVisit: "October to February", bestTimeToVisitReason: "Dryer weather is safer for the exposed rock-cut steps. Avoid attempting the climb in heavy rain or strong winds.", entryFee: "Verify local rules; guide recommended for inexperienced trekkers", images: ["/images/harihar-fort.jpg"], googlePlaceId: "", featured: false
     },
@@ -186,7 +185,7 @@ const places = [
         name: "Ramshej Fort", slug: "ramshej-fort", category: "Historical",
         description: "A historic hill fort north-west of Nashik associated with Maratha resistance and offering a relatively short local trekking outing.",
         shortDescription: "Historic hill fort near Nashik",
-        address: "Ramshej Fort, Ramshej, Nashik district, Maharashtra, India", location: { latitude: 20.0870, longitude: 73.7440 },
+        address: "Ramshej Fort, Ramshej, Nashik district, Maharashtra, India", location: { latitude: 20.11368, longitude: 73.76705 },
         distancesFromOrigins: { cbs: { distanceKm: 15, durationMinutes: 20 }, airport: { distanceKm: 32, durationMinutes: 50 }, railwayStation: { distanceKm: 22, durationMinutes: 40 } },
         bestTimeToVisit: "October to February", bestTimeToVisitReason: "Cooler, drier weather is generally better for the approach trail and summit.", entryFee: "Verify locally", images: ["/images/ramshej-fort.jpg"], googlePlaceId: "", featured: false
     },
@@ -194,15 +193,15 @@ const places = [
         name: "Saptashrungi Gad", slug: "saptashrungi-gad", category: "Religious",
         description: "A major hilltop shrine dedicated to the goddess Saptashrungi, surrounded by seven peaks in the Vani area of Nashik district.",
         shortDescription: "Hilltop goddess shrine near Vani",
-        address: "Saptashrungi Gad, Vani, Kalwan, Nashik district, Maharashtra, India", location: { latitude: 20.3890, longitude: 73.9080 },
+        address: "Saptashrungi Gad, Vani, Kalwan, Nashik district, Maharashtra, India", location: { latitude: 20.39028, longitude: 73.90861 },
         distancesFromOrigins: { cbs: { distanceKm: 65, durationMinutes: 105 }, airport: { distanceKm: 88, durationMinutes: 140 }, railwayStation: { distanceKm: 75, durationMinutes: 120 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Cooler weather is more comfortable for the hilltop visit. Major Navratri periods draw large crowds.", entryFee: "Generally free; verify ropeway and special services if used", images: ["/images/saptashrungi-gad.jpg"], googlePlaceId: "", featured: false
     },
-    {
+        {
         name: "Brahmagiri Hills", slug: "brahmagiri-hills", category: "Nature",
         description: "A mountain near Trimbakeshwar associated with the source region of the Godavari and a popular trekking and pilgrimage landscape.",
         shortDescription: "Sacred mountain above Trimbakeshwar",
-        address: "Brahmagiri Hills, Trimbak, Nashik district, Maharashtra, India", location: { latitude: 19.9270, longitude: 73.5230 },
+        address: "Brahmagiri Hills, Trimbak, Nashik district, Maharashtra, India", location: { latitude: 19.933, longitude: 73.533 },
         distancesFromOrigins: { cbs: { distanceKm: 31, durationMinutes: 50 }, airport: { distanceKm: 55, durationMinutes: 80 }, railwayStation: { distanceKm: 40, durationMinutes: 60 } },
         bestTimeToVisit: "October to February", bestTimeToVisitReason: "Cooler, drier conditions are generally better for hiking. Check trail access and weather before setting out.", entryFee: "Verify local access rules", images: ["/images/brahmagiri-hills.jpg"], googlePlaceId: "", featured: false
     },
@@ -210,11 +209,11 @@ const places = [
         name: "Sita Gufa", slug: "sita-gufa", category: "Religious",
         description: "A small cave shrine in Panchavati associated with the Ramayana tradition and visited as part of the area's pilgrimage circuit.",
         shortDescription: "Cave shrine in Panchavati",
-        address: "Sita Gufa Road, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.0073, longitude: 73.7950 },
+        address: "Sita Gufa Road, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.00772, longitude: 73.79616 },
         distancesFromOrigins: { cbs: { distanceKm: 3, durationMinutes: 15 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler months are comfortable for exploring nearby temples on foot. The cave passage may be narrow and crowded.", entryFee: "Verify locally", images: ["/images/sita-gufa.jpg"], googlePlaceId: "", featured: false
     },
-        {
+    {
         name: "Kapaleshwar Mahadev Temple", slug: "kapaleshwar-mahadev-temple", category: "Religious",
         description: "An old Shiva temple near Ramkund in Panchavati, forming part of Nashik's dense cluster of riverside pilgrimage sites.",
         shortDescription: "Historic Shiva temple near Ramkund",
@@ -226,7 +225,7 @@ const places = [
         name: "Sundar Narayan Temple", slug: "sundar-narayan-temple", category: "Religious",
         description: "A historic Vishnu temple in old Nashik, noted for its traditional architecture and location near the Godavari riverfront.",
         shortDescription: "Historic Vishnu temple in old Nashik",
-        address: "Sundar Narayan Temple, Ahillyabai Holkar Bridge area, Nashik, Maharashtra, India", location: { latitude: 20.0027, longitude: 73.7895 },
+        address: "Sundar Narayan Temple, Ahillyabai Holkar Bridge area, Nashik, Maharashtra, India", location: { latitude: 20.00811, longitude: 73.79004 },
         distancesFromOrigins: { cbs: { distanceKm: 2, durationMinutes: 10 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Cooler weather is more comfortable for visiting old Nashik on foot.", entryFee: "Generally free; verify locally", images: ["/images/sundar-narayan-temple.jpg"], googlePlaceId: "", featured: false
     },
@@ -234,7 +233,7 @@ const places = [
         name: "Tapovan", slug: "tapovan", category: "Religious",
         description: "A religious and riverside area in Panchavati connected with local Ramayana traditions and several shrines.",
         shortDescription: "Riverside pilgrimage area in Panchavati",
-        address: "Tapovan, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.0120, longitude: 73.8000 },
+        address: "Tapovan, Panchavati, Nashik, Maharashtra, India", location: { latitude: 19.999883, longitude: 73.815243 },
         distancesFromOrigins: { cbs: { distanceKm: 4.5, durationMinutes: 18 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler season is generally comfortable for exploring the area. Follow local guidance around riverbanks.", entryFee: "Generally free; individual sites may differ", images: ["/images/tapovan.jpg"], googlePlaceId: "", featured: false
     },
@@ -242,7 +241,7 @@ const places = [
         name: "Nandur Madhmeshwar Bird Sanctuary", slug: "nandur-madhmeshwar-bird-sanctuary", category: "Nature",
         description: "A wetland sanctuary in Nashik district known for migratory and resident birds, especially during the winter birding season.",
         shortDescription: "Wetland sanctuary and birdwatching destination",
-        address: "Nandur Madhmeshwar Bird Sanctuary, Niphad, Nashik district, Maharashtra, India", location: { latitude: 20.0200, longitude: 74.1050 },
+        address: "Nandur Madhmeshwar Bird Sanctuary, Niphad, Nashik district, Maharashtra, India", location: { latitude: 20.0245, longitude: 74.1077 },
         distancesFromOrigins: { cbs: { distanceKm: 48, durationMinutes: 70 }, airport: { distanceKm: 70, durationMinutes: 100 }, railwayStation: { distanceKm: 55, durationMinutes: 80 } },
         bestTimeToVisit: "November to February", bestTimeToVisitReason: "Winter is typically the best season for migratory birdwatching. Check sanctuary timings and access rules before travelling.", entryFee: "Verify current sanctuary entry and vehicle fees", images: ["/images/nandur-madhmeshwar-bird-sanctuary.jpg"], googlePlaceId: "", featured: false
     },
@@ -250,7 +249,7 @@ const places = [
         name: "Dhodap Fort", slug: "dhodap-fort", category: "Historical",
         description: "A major hill fort in Nashik district with a distinctive rocky profile and expansive views; the trek requires preparation and suitable conditions.",
         shortDescription: "Impressive hill fort in Nashik district",
-        address: "Dhodap Fort, Hatti village area, Nashik district, Maharashtra, India", location: { latitude: 20.4250, longitude: 74.0550 },
+        address: "Dhodap Fort, Hatti village area, Nashik district, Maharashtra, India", location: { latitude: 20.3854, longitude: 74.0309 },
         distancesFromOrigins: { cbs: { distanceKm: 61, durationMinutes: 67 }, airport: { distanceKm: 75, durationMinutes: 110 }, railwayStation: { distanceKm: 70, durationMinutes: 100 } },
         bestTimeToVisit: "October to February", bestTimeToVisitReason: "Dryer weather is generally better for trekking. Plan daylight hours, carry water, and check local trail conditions.", entryFee: "Verify locally; guide recommended for unfamiliar routes", images: ["/images/dhodap-fort.jpg"], googlePlaceId: "", featured: false
     },
@@ -258,7 +257,7 @@ const places = [
         name: "Dehergad Fort", slug: "dehergad-fort", category: "Historical",
         description: "A lesser-known hill fort in the Nashik region that appeals to trekkers interested in local history and rugged landscapes.",
         shortDescription: "Offbeat fort trek near Nashik",
-        address: "Dehergad Fort, Nashik district, Maharashtra, India", location: { latitude: 20.1150, longitude: 73.6900 },
+        address: "Dehergad Fort, Nashik district, Maharashtra, India", location: { latitude: 20.1269, longitude: 73.7449 },
         distancesFromOrigins: { cbs: { distanceKm: 15, durationMinutes: 25 }, airport: { distanceKm: 30, durationMinutes: 50 }, railwayStation: { distanceKm: 12.2, durationMinutes: 30 } },
         bestTimeToVisit: "October to February", bestTimeToVisitReason: "Drier weather is generally better for hiking. Confirm the trailhead and local access conditions before departure.", entryFee: "Verify locally", images: ["/images/dehergad-fort.jpg"], googlePlaceId: "", featured: false
     },
@@ -266,7 +265,7 @@ const places = [
         name: "Kumaramangalam Artillery Museum", slug: "kumar-mangalam-artillery-museum", category: "Historical",
         description: "A military museum in the Deolali area displaying artillery history and equipment. Visitor access may be subject to security and current rules.",
         shortDescription: "Military history museum in Deolali",
-        address: "Kumaramangalam Artillery Museum, Artillery Centre, Deolali, Nashik, Maharashtra, India", location: { latitude: 19.9230, longitude: 73.8300 },
+        address: "Kumaramangalam Artillery Museum, Artillery Centre, Deolali, Nashik, Maharashtra, India", location: { latitude: 19.9435056, longitude: 73.8091361 },
         distancesFromOrigins: { cbs: { distanceKm: 12, durationMinutes: 25 }, airport: { distanceKm: 30, durationMinutes: 45 }, railwayStation: { distanceKm: 2.3, durationMinutes: 10 } },
         bestTimeToVisit: "Year-round, subject to access", bestTimeToVisitReason: "Check public visiting hours, identification requirements, and access permission before travelling.", entryFee: "Confirm public access and fees before visiting", images: ["/images/kumar-mangalam-artillery-museum.jpg"], googlePlaceId: "", featured: false
     }
