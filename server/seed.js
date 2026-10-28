@@ -9,7 +9,7 @@ const places = [
         name: "Panchavati", slug: "panchavati", category: "Religious",
         description: "A historic and sacred neighbourhood on the Godavari's banks, home to many of Nashik's best-known temples and pilgrimage sites.",
         shortDescription: "Historic pilgrimage neighbourhood by the Godavari",
-        address: "Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.008300, longitude: 73.791400 },
+        address: "Panchavati, Nashik, Maharashtra, India", location: { latitude: 19.9505637, longitude: 73.0939789 },
         distancesFromOrigins: { cbs: { distanceKm: 3, durationMinutes: 15 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Cooler weather is generally more comfortable for walking between temples. Festival days can be crowded.", entryFee: "Generally free; individual attractions may differ", images: ["/images/panchavati.jpg"], googlePlaceId: "", featured: true
     },
@@ -25,7 +25,7 @@ const places = [
         name: "Kalaram Temple", slug: "kalaram-temple", category: "Religious",
         description: "A prominent temple in Panchavati dedicated to Lord Rama, noted for its dark-stone architecture and important place in Nashik's religious history.",
         shortDescription: "Historic Lord Rama temple in Panchavati",
-        address: "Kalaram Temple, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.006910, longitude: 73.795606 },
+        address: "Kalaram Temple, Panchavati, Nashik, Maharashtra, India", location: { latitude: 19.9505637, longitude: 73.0939789 },
         distancesFromOrigins: { cbs: { distanceKm: 3, durationMinutes: 15 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Pleasant weather helps with exploring the temple and nearby heritage sites. Expect larger crowds during festivals.", entryFee: "Generally free; verify locally", images: ["/images/kalaram-temple.jpg"], googlePlaceId: "", featured: true
     },
@@ -33,7 +33,7 @@ const places = [
         name: "Trimbakeshwar Temple", slug: "trimbakeshwar-temple", category: "Religious",
         description: "A revered Shiva temple near Brahmagiri Hill and one of India's twelve Jyotirlingas, making it a major pilgrimage destination.",
         shortDescription: "One of India's twelve Jyotirlinga temples",
-        address: "Trimbakeshwar Temple, Trimbak, Nashik, Maharashtra, India", location: { latitude: 19.932130, longitude: 73.530750 },
+        address: "Trimbakeshwar Temple, Trimbak, Nashik, Maharashtra, India", location: { latitude: 19.9505637, longitude: 73.0939789 },
         distancesFromOrigins: { cbs: { distanceKm: 30, durationMinutes: 45 }, airport: { distanceKm: 55, durationMinutes: 80 }, railwayStation: { distanceKm: 40, durationMinutes: 60 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Cooler weather is generally more comfortable for the pilgrimage. Monsoon weather can affect nearby hill routes, and festival days can be very busy.", entryFee: "Temple entry generally free; special rituals may cost extra", images: ["/images/trimbakeshwar-temple.jpg"], googlePlaceId: "", featured: true
     },
@@ -41,7 +41,7 @@ const places = [
         name: "Kushavart Tirtha", slug: "kushavart-tirtha", category: "Religious",
         description: "A historic sacred water tank in Trimbak, about 300–400 metres from Trimbakeshwar Temple and associated with the Godavari's sacred traditions.",
         shortDescription: "Sacred historic tank in Trimbak",
-        address: "Kushavart Tirtha, Trimbak, Nashik, Maharashtra, India", location: { latitude: 19.932735, longitude: 73.527729 },
+        address: "Kushavart Tirtha, Trimbak, Nashik, Maharashtra, India", location: { latitude: 19.9505637, longitude: 73.0939789 },
         distancesFromOrigins: { cbs: { distanceKm: 30, durationMinutes: 50 }, airport: { distanceKm: 55, durationMinutes: 80 }, railwayStation: { distanceKm: 40, durationMinutes: 60 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler season is more comfortable for visiting Trimbak and its temple precincts.", entryFee: "Generally free; verify locally", images: ["/images/kushavart-tirtha.jpg"], googlePlaceId: "", featured: false
     },
@@ -49,7 +49,7 @@ const places = [
         name: "Muktidham Temple", slug: "muktidham-temple", category: "Religious",
         description: "A white-marble temple complex near Nashik Road Railway Station, known for its replicas of important Hindu shrines and pilgrimage significance.",
         shortDescription: "White-marble temple complex near Nashik Road",
-        address: "Muktidham Temple, Nashik Road, Nashik, Maharashtra, India", location: { latitude: 19.951802, longitude: 73.836952 },
+        address: "Muktidham Temple, Nashik Road, Nashik, Maharashtra, India", location: { latitude: 19.0827728, longitude: 73.7870175 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 21, durationMinutes: 40 }, railwayStation: { distanceKm: 1.5, durationMinutes: 10 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler months are generally comfortable for visiting the temple complex.", entryFee: "Generally free; verify locally", images: ["/images/muktidham-temple.jpg"], googlePlaceId: "", featured: false
     },
@@ -57,7 +57,7 @@ const places = [
         name: "Someshwar Temple", slug: "someshwar-temple", category: "Religious",
         description: "A riverside temple dedicated to Lord Shiva and Lord Hanuman in a green area along the Gangapur Road side of Nashik.",
         shortDescription: "Riverside Shiva temple on Gangapur Road",
-        address: "Someshwar Temple, Gangapur Road, Nashik, Maharashtra, India", location: { latitude: 20.029500, longitude: 73.723400 },
+        address: "Someshwar Temple, Gangapur Road, Nashik, Maharashtra, India", location: { latitude: 20.0230712, longitude: 73.7230813},
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 15, durationMinutes: 30 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The riverside setting is pleasant in cooler months. Take care near the water, especially during monsoon.", entryFee: "Generally free; verify locally", images: ["/images/someshwar-temple.jpg"], googlePlaceId: "", featured: false
     },
@@ -65,7 +65,7 @@ const places = [
         name: "Navshya Ganpati Temple", slug: "navshya-ganpati-temple", category: "Religious",
         description: "A well-known Ganesh temple in Anandvalli, traditionally associated with the Peshwa-era history of the area.",
         shortDescription: "Beloved Ganesh temple in Anandvalli",
-        address: "Navshya Ganpati Temple, Anandvalli, Nashik, Maharashtra, India", location: { latitude: 19.997158, longitude: 73.752639 },
+        address: "Navshya Ganpati Temple, Anandvalli, Nashik, Maharashtra, India", location: { latitude: 20.016385, longitude: 73.7384733 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 15, durationMinutes: 30 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Comfortable weather is ideal for a temple visit; Ganesh festival periods may be busier.", entryFee: "Generally free; verify locally", images: ["/images/navshya-ganpati-temple.jpg"], googlePlaceId: "", featured: false
     },
@@ -73,7 +73,7 @@ const places = [
         name: "Pandav Leni Caves", slug: "pandav-leni-caves", category: "Historical",
         description: "Ancient Buddhist rock-cut caves on Trirashmi Hill, known for their inscriptions, carvings and archaeological significance.",
         shortDescription: "Ancient Buddhist rock-cut caves near Nashik",
-        address: "Pandav Leni, Nashik, Maharashtra, India", location: { latitude: 19.940800, longitude: 73.748900 },
+        address: "Pandav Leni, Nashik, Maharashtra, India", location: { latitude: 19.9412114, longitude: 73.7437914 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "November to February", bestTimeToVisitReason: "Cooler, generally drier weather makes the uphill walk and cave exploration more comfortable.", entryFee: "Verify current ASI entry fee and timings", images: ["/images/pandav-leni-caves.jpg"], googlePlaceId: "", featured: true
     },
