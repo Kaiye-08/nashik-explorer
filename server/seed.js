@@ -17,7 +17,7 @@ const places = [
         name: "Ramkund", slug: "ramkund", category: "Religious",
         description: "A sacred bathing tank on the Godavari River, closely associated with Nashik's religious traditions and pilgrimage rituals.",
         shortDescription: "Sacred riverside bathing tank in Panchavati",
-        address: "Ramkund, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.005600, longitude: 73.787500 },
+        address: "Ramkund, Panchavati, Nashik, Maharashtra, India", location: { latitude: 20.0077298, longitude: 73.787666 },
         distancesFromOrigins: { cbs: { distanceKm: 2, durationMinutes: 10 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "The cooler months are generally comfortable for exploring the riverfront and nearby temples.", entryFee: "Generally free", images: ["/images/ramkund.jpg"], googlePlaceId: "", featured: true
     },
