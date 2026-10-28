@@ -81,7 +81,7 @@ const places = [
         name: "Dadasaheb Phalke Smarak", slug: "dadasaheb-phalke-smarak", category: "Historical",
         description: "A memorial and park named for Dadasaheb Phalke, the pioneering Indian filmmaker, near the Pandav Leni area.",
         shortDescription: "Memorial celebrating the pioneer of Indian cinema",
-        address: "Dadasaheb Phalke Smarak, Nashik, Maharashtra, India", location: { latitude: 19.943350, longitude: 73.750040 },
+        address: "Dadasaheb Phalke Smarak, Nashik, Maharashtra, India", location: { latitude: 19.9412114, longitude: 73.7437914 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "November to February", bestTimeToVisitReason: "Cooler weather is more comfortable for walking around the grounds. Confirm current opening status before visiting.", entryFee: "Verify current entry fee and opening status", images: ["/images/dadasaheb-phalke-smarak.jpg"], googlePlaceId: "", featured: false
     },
@@ -89,7 +89,7 @@ const places = [
         name: "Coin Museum", slug: "coin-museum", category: "Historical",
         description: "A specialist museum on the Nashik–Trimbakeshwar Road documenting the history of Indian currency and numismatics.",
         shortDescription: "Museum dedicated to Indian currency history",
-        address: "Coin Museum, INHCRF Campus, Trimbakeshwar Road, Nashik, Maharashtra, India", location: { latitude: 19.957703, longitude: 73.610941 },
+        address: "Coin Museum, INHCRF Campus, Trimbakeshwar Road, Nashik, Maharashtra, India", location: { latitude: 19.9580518, longitude: 73.6065106 },
         distancesFromOrigins: { cbs: { distanceKm: 20, durationMinutes: 35 }, airport: { distanceKm: 34, durationMinutes: 50 }, railwayStation: { distanceKm: 29, durationMinutes: 45 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "An indoor museum visit works year-round, but cooler weather makes combining it with nearby outdoor stops easier.", entryFee: "Verify current entry fee and opening days", images: ["/images/coin-museum.jpg"], googlePlaceId: "", featured: false
     },
@@ -97,7 +97,7 @@ const places = [
         name: "Gargoti Museum", slug: "gargoti-museum", category: "Historical",
         description: "A mineral and crystal museum in Sinnar featuring specimens, mineral formations and geological displays.",
         shortDescription: "Minerals, crystals and geological exhibits in Sinnar",
-        address: "Gargoti Museum, Malegaon MIDC, Sinnar, Nashik district, Maharashtra, India", location: { latitude: 19.871822, longitude: 73.972304 },
+        address: "Gargoti Museum, Malegaon MIDC, Sinnar, Nashik district, Maharashtra, India", location: { latitude: 19.8719271, longitude: 73.9673239 },
         distancesFromOrigins: { cbs: { distanceKm: 27, durationMinutes: 25 }, airport: { distanceKm: 45, durationMinutes: 65 }, railwayStation: { distanceKm: 31, durationMinutes: 50 } },
         bestTimeToVisit: "Year-round", bestTimeToVisitReason: "Most of the experience is indoors; check current visitor hours and booking requirements.", entryFee: "Paid admission; verify current rates", images: ["/images/gargoti-museum.jpg"], googlePlaceId: "", featured: false
     },
@@ -105,7 +105,7 @@ const places = [
         name: "Sarkar Wada", slug: "sarkar-wada", category: "Historical",
         description: "A historic wada in Nashik associated with the city's Maratha-era architectural and civic heritage.",
         shortDescription: "Historic wada in old Nashik",
-        address: "Sarkar Wada, old city, Nashik, Maharashtra, India", location: { latitude: 20.006039, longitude: 73.790100 },
+        address: "Sarkar Wada, old city, Nashik, Maharashtra, India", location: { latitude: 20.0055025, longitude: 73.785788 },
         distancesFromOrigins: { cbs: { distanceKm: 2, durationMinutes: 10 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 10, durationMinutes: 25 } },
         bestTimeToVisit: "October to March", bestTimeToVisitReason: "Cooler weather is better for exploring old-city streets on foot. Confirm public access before visiting.", entryFee: "Verify access and any fee locally", images: ["/images/sarkar-wada.jpg"], googlePlaceId: "", featured: false
     },
@@ -113,7 +113,7 @@ const places = [
         name: "Dudhsagar Waterfall", slug: "dudhsagar-waterfall", category: "Nature",
         description: "A small seasonal cascade near Someshwar Temple on the Godavari, named for its milky-white appearance when flowing well.",
         shortDescription: "Milky cascade near Someshwar Temple",
-        address: "Dudhsagar Waterfall, near Someshwar Temple, Nashik, Maharashtra, India", location: { latitude: 20.029800, longitude: 73.722200 },
+        address: "Dudhsagar Waterfall, near Someshwar Temple, Nashik, Maharashtra, India", location: { latitude: 15.3144375, longitude: 74.3095437 },
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 28, durationMinutes: 45 }, railwayStation: { distanceKm: 15, durationMinutes: 30 } },
         bestTimeToVisit: "June to September", bestTimeToVisitReason: "Monsoon rains usually strengthen the cascade. Avoid slippery rocks and dangerous water conditions.", entryFee: "Verify locally", images: ["/images/dudhsagar-waterfall.jpg"], googlePlaceId: "", featured: false
     },
@@ -121,7 +121,7 @@ const places = [
         name: "Someshwar Waterfall", slug: "someshwar-waterfall", category: "Nature",
         description: "A small waterfall on the Godavari near Someshwar Temple, popular for its monsoon scenery and nearby riverside setting.",
         shortDescription: "Seasonal waterfall near Someshwar Temple",
-        address: "Someshwar Waterfall, Nashik, Maharashtra, India", location: { latitude: 20.029200, longitude: 73.723400 },
+        address: "Someshwar Waterfall, Nashik, Maharashtra, India", location: { latitude: 20.0291612, longitude: 73.7186513},
         distancesFromOrigins: { cbs: { distanceKm: 8, durationMinutes: 20 }, airport: { distanceKm: 24, durationMinutes: 40 }, railwayStation: { distanceKm: 15, durationMinutes: 30 } },
         bestTimeToVisit: "June to September", bestTimeToVisitReason: "Monsoon rainfall generally brings stronger flow and greener surroundings. Stay away from fast-moving water.", entryFee: "Verify locally", images: ["/images/someshwar-waterfall.jpg"], googlePlaceId: "", featured: false
     },
@@ -129,7 +129,7 @@ const places = [
         name: "Dugarwadi Waterfall", slug: "dugarwadi-waterfall", category: "Nature",
         description: "A forest-fringed waterfall near Trimbakeshwar, known for its lush monsoon landscape and short approach from the road.",
         shortDescription: "Forest waterfall near Trimbakeshwar",
-        address: "Dugarwadi Waterfall, near Trimbakeshwar, Nashik district, Maharashtra, India", location: { latitude: 19.940600, longitude: 73.468400 },
+        address: "Dugarwadi Waterfall, near Trimbakeshwar, Nashik district, Maharashtra, India", location: { latitude: 19.9407167, longitude: 73.4635481 },
         distancesFromOrigins: { cbs: { distanceKm: 35, durationMinutes: 55 }, airport: { distanceKm: 55, durationMinutes: 85 }, railwayStation: { distanceKm: 45, durationMinutes: 70 } },
         bestTimeToVisit: "July to October", bestTimeToVisitReason: "The waterfall is most impressive during and after monsoon rainfall. Access can be slippery or unsafe in heavy rain.", entryFee: "Verify local parking/access fees", images: ["/images/dugarwadi-waterfall.jpg"], googlePlaceId: "", featured: false
     },
@@ -137,7 +137,7 @@ const places = [
         name: "Mahiravani Waterfall", slug: "mahiravani-waterfall", category: "Nature",
         description: "A seasonal waterfall and green escape in the Mahiravani area west of Nashik, especially visited during the monsoon.",
         shortDescription: "Seasonal waterfall in the Mahiravani area",
-        address: "Mahiravani Waterfall, Mahiravani, Nashik district, Maharashtra, India", location: { latitude: 19.966340, longitude: 73.661170 },
+        address: "Mahiravani Waterfall, Mahiravani, Nashik district, Maharashtra, India", location: { latitude: 19.9632738, longitude: 73.6576056 },
         distancesFromOrigins: { cbs: { distanceKm: 13, durationMinutes: 20 }, airport: { distanceKm: 30, durationMinutes: 50 }, railwayStation: { distanceKm: 20, durationMinutes: 35 } },
         bestTimeToVisit: "July to September", bestTimeToVisitReason: "Monsoon rains bring greener scenery and seasonal flow. Verify access locally and avoid entering floodwater.", entryFee: "Verify locally", images: ["/images/mahiravani-waterfall.jpg"], googlePlaceId: "", featured: false
     },
@@ -145,7 +145,7 @@ const places = [
         name: "Pahine Waterfall", slug: "pahine-waterfall", category: "Nature",
         description: "A monsoon-season waterfall in the hilly Pahine area near Trimbakeshwar, surrounded by the Western Ghats landscape.",
         shortDescription: "Monsoon waterfall in the Trimbak hills",
-        address: "Pahine Waterfall, Pahine, Nashik district, Maharashtra, India", location: { latitude: 19.899390, longitude: 73.552740 },
+        address: "Pahine Waterfall, Pahine, Nashik district, Maharashtra, India", location: { latitude: 19.9104157, longitude: 73.5592647 },
         distancesFromOrigins: { cbs: { distanceKm: 40, durationMinutes: 60 }, airport: { distanceKm: 60, durationMinutes: 90 }, railwayStation: { distanceKm: 50, durationMinutes: 75 } },
         bestTimeToVisit: "July to October", bestTimeToVisitReason: "Seasonal flow is strongest around the monsoon. Use caution on wet trails and check local conditions.", entryFee: "Verify locally", images: ["/images/pahine-waterfall.jpg"], googlePlaceId: "", featured: false
     },
